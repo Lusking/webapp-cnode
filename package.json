@@ -1,8 +1,8 @@
 {
   "name": "vue-cnode",
   "version": "1.0.0",
-  "description": "CNode by Vue.js",
-  "author": "Zhaohui <zhaohui@microzz.com>",
+  "description": "cnode by Vue.js",
+  "author": "Lusking <2430735811@qq.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

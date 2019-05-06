@@ -54,7 +54,7 @@ export default {
     flex-direction: column;
     width: 100%;
     height: 70px;
-    background-color: #2196F3;
+    background-color: #333;
     color: white;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@ export default {
       right: 15px;
       top: 18px;
       text-align: center;
-      background-color: #ff4081;
+      background-color:#80bd01;
       border-radius: 10px;
       font-size: 80%;
     }

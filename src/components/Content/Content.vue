@@ -107,16 +107,14 @@ export default {
     width: 100%;
     flex: 1;
     position: relative;
-
     .tab {
-
       height: 45px;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
       color: white;
-      background-color: #2196F3;
+      background-color: #333;
       font-size: 110%;
       letter-spacing: 2px;
       a {
@@ -137,7 +135,7 @@ export default {
         z-index: 1;
       }
       .isBorder {
-        border-bottom: 2px solid #ff4081;
+        border-bottom: 2px solid #80bd01;
         font-weight: bold;
         font-size: 120%;
       }
@@ -159,7 +157,6 @@ export default {
           text-align: center;
           width: 40px;
           height: 40px;
-
           background: url('../../common/icons/icon-loading.svg') no-repeat;
           animation: loading .4s linear infinite;
           background-size: contain;

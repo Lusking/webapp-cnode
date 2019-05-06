@@ -92,7 +92,7 @@ export default {
       justify-content: center;
       width: 100%;
       height: 60px;
-      background-color: #2196f3;
+      background-color: #333;
       color: white;
       font-size: 1.4rem;
 

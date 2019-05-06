@@ -5,10 +5,10 @@
 
         <div class="user">
           <div class="user-avatar">
-            <img @click="showLogin" :src="userInfo.avatar_url || 'http://omratag7g.bkt.clouddn.com/icon-unlogin.svg'" alt="">
+            <img  :src="userInfo.avatar_url || 'http://omratag7g.bkt.clouddn.com/icon-unlogin.svg'" alt="">
           </div>
-          <div class="username">
-            {{userInfo.success ? userInfo.loginname : '点击头像登录'}}
+          <div class="username" @click="showLogin">
+            {{userInfo.success ? userInfo.loginname : '点击登录'}}
           </div>
         </div>
 
@@ -90,7 +90,6 @@ export default {
     right: 0;
     width: 100%;
     height: 100%;
-
     .menu {
       display: flex;
       flex-direction: column;
@@ -104,14 +103,14 @@ export default {
         align-items: center;
         width: 100%;
         height: 200px;
-        background-color: #2196F3;
+        background-color: #333;
         color: white;
         .user-avatar {
           img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50px;
-            cursor: pointer;
+              width: 100px;
+              height: 100px;
+              border-radius: 50px;
+              cursor: pointer;
           }
         }
 
@@ -143,11 +142,12 @@ export default {
           display: inline-block;
           width: 22px;
           height: 22px;
+          color:black;
           background-repeat: no-repeat;
           margin-right: 8px;
         }
         .icon-msg {
-          background: url('../../common/icons/icon-msg-blue.svg');
+          background: url('../../common/icons/icon-msg.svg');
           background-size: contain;
         }
         .icon-collect {
@@ -155,7 +155,7 @@ export default {
           background-size: contain;
         }
         .icon-msg {
-          background: url('../../common/icons/icon-msg-blue.svg');
+          background: url('../../common/icons/icon-msg.svg');
           background-size: contain;
         }
         .icon-new {

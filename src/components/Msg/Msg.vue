@@ -117,7 +117,7 @@ export default {
       height: 50px;
       color: white;
       font-size: 1.4rem;
-      background-color: #2196f3;
+      background-color: #333;
       border-bottom: 1px solid rgba(255, 255, 255, .2);
       i.icon-back {
         position: absolute;

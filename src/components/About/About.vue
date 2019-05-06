@@ -6,9 +6,9 @@
         <h1>关于</h1>
         <h2>Vue.js打造一个开源的CNode社区</h2>
         <p class="skill"><b>技术栈</b>：</p>
-        <div>Vue2<br>Vuex(不同组件状态共享)<br>vue-router(路由)<br>axios(发起http请求)<br>SASS(SCSS)<br>Express(上线版本是Koa2)<br>Webpack<br>Moment.js(时间处理)<br>ES6<br>localStorage(HTML5)<br>Canvas(页面顶部小雪花)<br>CSS3</div>
-        <p class="url"><b>源码地址</b>：<a @touchstart="isHover=true" @touchEnd="isHover=false" :class="{hover: isHover}" href="https://github.com/Lusking/vue-cnode" target="_blank">GitHub</a></p>
-        
+        <div>Vue2<br>Vuex(不同组件状态共享)<br>vue-router(路由)<br>axios(发起http请求)<br>SASS(SCSS)<br>Express<br>Webpack<br>Moment.js(时间处理)<br>ES6<br>localStorage(HTML5)<br>CSS3</div>
+        <p class="url"><b>源码地址</b>：<a @touchstart="isHover=true" @touchEnd="isHover=false" :class="{hover: isHover}" href="https://github.com/Lusking/webapp-cnone" target="_blank">GitHub</a></p>
+
       </div>
       <div @click="showAbout" class="mask"></div>
     </div>
@@ -56,7 +56,7 @@ export default {
     height: 100%;
     justify-content: center;
     align-items: center;
-    // background-color: rgba(0, 0, 0, .5);
+    //background-color: rgba(0, 0, 0, .5);
     .close {
       position: absolute;
       z-index: 3;
